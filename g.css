@@ -1,0 +1,84 @@
+@font-face{
+    font-family: Display;
+    src: url(Midia/Gill\ Sans\ Display\ MT\ Pro\ Bold.otf);
+}
+
+@font-face{
+    font-family: This;
+    src: url(Midia/This.otf);
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.block{
+    display: flex;
+    width: 800px;
+    height: 98vh;
+    margin: auto;
+}
+
+.block2{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    background-color: #231F20;
+    margin: auto;
+}
+
+.block3{
+    width: 600px;
+    height: 450px;
+    margin: auto;
+}
+
+.logo{
+    color: rgba(255, 255, 255, 0);
+    font-family: This;
+
+    font-weight: bolder;
+    line-height: 85%;
+    font-size: 32px;
+    -webkit-text-stroke: 1px rgb(243, 243, 243);
+    text-align: center;
+}
+
+.logo_p{
+    text-align: center;
+    font-family: This;
+    font-size: 22px;
+    color: rgb(243, 243, 243);
+}
+
+button{
+    
+    width: 450px;
+    height: 80px;
+    
+    background-color: rgb(31, 31, 31);
+    color: aliceblue;
+    
+    font-family: Display;
+    font-size: 20px;
+    font-weight: bold;
+
+    border: aliceblue solid 2px;
+
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    
+}
+
+.buttons{
+    margin: auto;
+    width: 450px;
+    height: 250px;
+}

@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.block{
+    width: auto;
+    height: 30px;
+}
+
+.block{
+    display: flex;
+    
+
+    width: 100%;
+    height: 30px;
+}
+
+.navitems{
+    display: flex;
+    position: fixed;
+
+    column-gap: 40px;
+
+    font-size: 23px;
+    font-family: This;
+    list-style: none;
+    font-weight: bolder;
+
+    color: rgb(243, 243, 243);
+
+    margin: 4px;
+}
+
+.square{
+    display: block;
+    position: fixed;
+
+    width: 100vw;
+    height: 350px;
+
+    background-color: rgb(255, 255, 255);
+
+    justify-content: start;
+    align-items: start;
+
+    opacity: 95%;
+}
+
+.square img{
+    width: 110px;
+}
+
+.title{
+    
+    font-size: 100px;
+    font-weight: lighter;
+    font-family:  Helvetica, sans-serif;
+    letter-spacing: -15px;
+
+    padding-left: 40px;
+
+    color: rgb(0, 0, 0);
+}
+
+.navbar{
+    display: flex;
+    width: auto;
+    height: 100px;
+}
+
+.btn{
+    display: flex;
+    
+    margin-left: auto;
+    padding-right: 55px;
+    padding-top: 30px;
+
+    justify-content: end;
+}
+
+.btn-a img{
+    display: flex;
+    transition: opacity 0.3s;
+    transform: scaleX();
+    
+}
+
+.btn-a{
+    transform: scaleX(-1);
+}
+
+.btn-a img:hover{
+    opacity: 70%;
+}
+
+.btn-a2 img{
+    display: flex;
+    transition: opacity 0.3s;
+    transform: scaleX();
+    
+}
+
+.btn-a2 img:hover{
+    opacity: 70%;
+}
+
+.square-desc{
+
+    width: 600px;
+    height: 220px;
+
+    margin-left: 54px;    
+}
+
+.square-desc h2{
+
+    width: 800px;
+    height: auto; 
+}
+
+.square-desc h2{
+    font-family: Helvetica, sans-serif;
+}
+
+.img{
+    display: flex;
+}
+
+.img img{
+    height: 100px;
+
+    padding-top: 16px;
+}
+
+.img p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+    padding-left: 30px;
+}
+
+
+.bg{
+    background: url(https://th.bing.com/th/id/R.9a5fa6a5d1e01d9cfa5d73ac0da0f8b8?rik=qfIuX%2b1t6DuTHw&riu=http%3a%2f%2fbr.clim-amazon.eu%2fvar%2fird%2fstorage%2fimages%2fmedia%2fird-sites-d-unites-de-recherche%2fclim-amazon%2fimages%2fbrasilia%2f387016-1-eng-GB%2fbrasilia.jpg&ehk=h30LpJLJJqcWvK2mXBYUKgrnpTzjrDwEKWE%2blOWNVB4%3d&risl=&pid=ImgRaw&r=0);
+    width: 99.2vw;
+    height: 130vh;
+
+    background-size: cover;
+}
+
+.bg1_gal{
+    background: url(https://i.pinimg.com/originals/e4/4a/dd/e44add37b2c77bba47af9c269f8b6e6b.jpg);
+    width: 99.2vw;
+    height: 130vh;
+    
+    background-size: cover;
+}
+
+.bg2_gal{
+    background: url(https://inartdeco.com/wp-content/uploads/2022/02/ZHelezobeton.jpg);
+    width: 99.2vw;
+    height: 130vh;
+    
+    background-size: cover;
+}
+
+.bg3_gal{
+    background: url(https://worldarchitecture.org/cdnimgfiles/extuploadc/feature-2-.jpg);
+    width: 99.2vw;
+    height: 130vh;
+    
+    background-size: cover;
+}
+
+.bg4_gal{
+    background: url(https://www.nelsonkon.com.br/wp-content/uploads/2019/02/paulo_mendes_da_rocha_mube_pmrmu_17.jpg);
+    width: 99.2vw;
+    height: 170vh;
+    
+    background-size: cover;
+}
+
+.bgI1_gal{background: url(https://upload.wikimedia.org/wikipedia/commons/5/51/Villa_G%C3%B6th.jpg);
+    width: 99.2vw;
+    height: 130vh;
+    
+    background-size: cover;
+
+}
+
+.bgI2_gal{background: url(https://www.archpaper.com/wp-content/uploads/2025/01/Boston-City-Hall-05-2018.jpg);
+    width: 99.2vw;
+    height: 130vh;
+    
+    background-size: cover;
+
+}
+
+.bgI3_gal{background: url(https://upload.wikimedia.org/wikipedia/commons/2/20/Litchfield_Towers_in_Pittsburgh_in_2016.jpg);
+    width: 99.2vw;
+    height: 130vh;
+    
+    background-size: cover;
+
+}
+
+.bgI4_gal{background: url(https://upload.wikimedia.org/wikipedia/commons/d/d2/Buffalo_City_Court_Building%2C_1971-74%2C_Pfohl%2C_Roberts_and_Biggie_%288448022295%29.jpg);
+    width: 99.2vw;
+    height: 260vh;
+    
+    background-size: cover;
+
+}
+
+.bgI5_gal{background: url(https://upload.wikimedia.org/wikipedia/commons/7/7b/Guajolote.jpg);
+    width: 99.2vw;
+    height: 130vh;
+    
+    background-size: cover;
+
+}
